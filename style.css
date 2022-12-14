@@ -1,0 +1,616 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header img{
+    padding-left: 200px;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 200px;
+}
+.header ul li{
+list-style-type:none;   
+padding-left: 70px; 
+font-weight: bold;
+font-size: 20px;
+
+}
+
+.header ul li :hover{
+    color: rgb(240, 117, 35);
+    cursor: pointer;
+    transition: .2s;
+}
+.header .home{
+    color: rgb(94, 240, 138);
+}
+
+/* FOR FIRST SECTION */
+
+.bg-image{
+    background-image: url(img/cvbf-min.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:750px;
+    width: auto;
+}
+.logoarea{
+    padding-top: 100px;
+}
+.logoarea p {
+    background-color: rgb(165, 201, 171);
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    align-items: center;
+    margin-left:45%;
+    border-radius: 50%;
+
+}
+
+.first-section{
+    margin-top: 30px;
+    text-align: center;
+}
+.bg-image .caring{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight:700;
+    letter-spacing: 6px;
+    margin-top: 50px;
+
+}
+.bg-image h1{
+    color: white;
+    font-size:9.375rem;
+    font-weight: 700;
+    
+}
+.bg-image .text
+{
+    color: white;
+}
+
+.second-section{
+    padding: 70px 0;
+    background-color:#F2F2F2;
+}
+.second-section h1{
+    font-size:2.25rem ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.second-section .para{
+    color: #808E8E;
+    font-size: 20px;
+    width: 702px;
+    margin: 39px auto 0;
+}
+.second-section button{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color:#84C0A0 ;
+    border-radius: 50px;
+    padding: 20px 30px;
+    width: 190px;
+    margin-top: 50px;
+    margin-left: 45%;
+    letter-spacing: 2px;
+    border: none; 
+}
+.second-section button:hover{
+    cursor: pointer;
+    background-color:#95b3a4 ;
+    cursor: pointer;
+}
+
+
+/* third section start from here */
+
+.third-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-element{
+    width: 550px;
+    text-align:left;
+}
+.first-element p{
+    color: #808E8E;
+    padding: 20px 0;
+    width: 450px;
+}
+.first-element h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.third-section .first-element img{
+    height: 525px;
+    width: 442px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    padding-top: 50px;
+}
+.logo p {
+    background-color: rgb(165, 201, 171);
+    height: 150px;
+    width: 150px;
+    padding: 40px;
+    align-items: center;
+    margin-left:150px;
+    border-radius: 50%;
+
+}
+
+.second-element h2{
+    font-size:50px;
+    padding: 0 30px;
+    
+}
+.second-element{
+    background-color:#F2F2F2;
+    height: 688px;
+    width: 469px;
+}
+.second-element button{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color:#84C0A0 ;
+    border-radius: 50px;
+    padding: 20px 30px;
+    width: 190px;
+    margin-top:100px;
+    margin-left:130px;
+    letter-spacing: 2px;
+    border: none; 
+}
+.second-element button:hover{
+    cursor: pointer;
+    background-color:#95b3a4 ;
+    cursor: pointer;
+}
+.second-element .for-sec{
+    padding: 30px 10px;
+    width: 400px;
+    margin-left: 50px;
+    color: #808E8E;
+}
+/* fourth section start form here */
+
+.fourth-section{
+    background-color:#84C0A0 ;
+ 
+}
+.fourth-section h1{
+    color: white;
+    text-align: center;
+    padding: 30px ;
+    font-size: 50px;
+}
+.fourth-section .pera i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.fourth-section .pera{
+    background-color: white;
+    width: 500px;
+    padding: 30px 20px ;
+    display: flex;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+.element{
+    padding-bottom: 30px;
+    
+}
+.fourth-section .fourth-wrapper{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+/* fifth section start form here */
+
+.fifth-section .for-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fifth-section .first{
+    width: 450px;
+    margin-top: -80px;
+}
+
+.fifth-section .first h3{
+    font-size: 22px;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.fifth-section .first p{
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.fifth-section .first img{
+    height: 400px;
+    width: 400px;
+}
+.fifth-section button{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color:#84C0A0 ;
+    border-radius: 50px;
+    padding: 20px 30px;
+    width: 190px;
+
+    letter-spacing: 2px;
+    border: none; 
+}
+.fifth-section button:hover{
+    cursor: pointer;
+    background-color:#95b3a4 ;
+    cursor: pointer;
+}
+
+.fifth-section .second img {
+    height: 700px;
+    width: 400px;
+    margin-top:25px;
+
+}
+.fifth-section .second {
+     position: relative;
+}
+
+.fifth-section .for-two h2{
+    background-color: #4B6256;
+    color: white;
+    font-size: 30px;
+    padding: 30px 80px;
+    border-radius: 10px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    
+    
+}
+
+
+/* six section start from here */
+
+.six-section{
+    display: flex;
+    margin: 30px 0 ;
+}
+.six-section .s-bg-img{
+    background-image: url(img/nmmnmn-min.jpg);
+    width:65%;
+    background-repeat: no-repeat;
+    height:800px;
+}
+
+.six-section img{
+    height: 550px;
+    width: 500px;
+    margin-top: 170px;
+    margin-left: 20px;
+    
+}
+
+.six-section p{
+    width: 350px;
+    height: 300px;
+    margin: 100px;
+    padding: 50px;
+    color: #111111;
+    background-color: #FDF6F5;
+    text-align: center;
+    font-weight:bold;
+}
+/* 7th section start from here */
+.seventh-section{
+margin: 20px;
+align-items: center;
+margin-left: 20px;
+}
+/* .seven-two{
+    padding-left: 250px;
+} */
+.seventh-section .seven-first{
+    width:380px;
+    text-align: center;
+}
+
+.seventh-section .seven-first img{
+    width:350px;
+    height: 380px;
+}
+.seventh-section .seven-first h3{
+    font-size: 27px;
+    margin-top: 20px;
+
+}
+
+.seventh-section .seven-first p{
+    font-size: 20px;
+    width: 55px;
+    margin-left:50%;
+    font-weight: bold;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+
+}
+.seventh-section .seven-first p:hover{
+    border-bottom: 2px solid #ec7f35;
+    cursor: pointer;
+}
+.seventh-section .seven-second{
+    margin-left: 50px;
+}
+.seventh-section .seven-second .first-ele{
+    width: 650px;
+    height:550px;
+    background-color: #F4F6F8;
+    text-align: center;
+}
+.seventh-section .seven-second h1{
+    padding: 20px 30px;
+    font-size: 50px;
+
+}
+.seventh-section .seven-second .more{
+    border-bottom: 2px solid black;
+    display:inline-block;
+    font-size: 20px;
+}
+.seventh-section .seven-second .more:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #ec7f35 ;
+}
+.seventh-section .seven-second p{
+    padding: 50px;
+    font-size: 20px;
+}
+.seventh-section .seven-two{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width:1500px;
+}
+
+.seventh-section .second-ele {
+    display: flex;
+    width: 650px;
+    margin-top: 30px;
+}
+.seventh-section .nested-one h4{
+    font-size: 30px;
+    margin: 30px 0;
+}
+.seventh-section .nested-two img{
+    height: 300px;
+    width: 300px;
+
+}
+.seventh-section .nested-one i{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.seventh-section .nested-one i:hover{
+    color: #ec7f35;
+    cursor: progress;
+}
+
+/* eight section start from her  */
+
+.eight-section{
+margin: 80px 0;
+color: #FDF6F5;
+
+}
+
+.eight-bg{
+    background-image: url(img/fgfg-min.jpg);
+    background-repeat: no-repeat;
+    height:1000px;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.eight-section h2{
+    text-align: center;
+    font-size: 60px;
+    color: #FDF6F5;
+    padding: 20px 30px ;
+    padding-top: 30vh;
+}
+.eight-section .for-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.eight-section .box{
+    text-align: center;
+    
+    width: 30vh;
+    margin: 10px;
+}
+
+.eight-section .box h4{
+    font-size:30px ;
+    font-weight: normal;
+    padding: 10px 0;
+
+}
+.eight-section .box .text{
+    padding: 10px 35px;
+    font-size: 16 px;
+}
+.eight-section .box .button{
+    padding: 10px 40px;
+    background-color: #84C0A0;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    display: inline-block;
+    margin: 30px 0 ;
+}
+.eight-section .box .button:hover{
+background-color: white;
+color: #111111;
+transition: 0.2s;
+}
+
+
+/* nine section start from here  */
+.nine-wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+
+}
+.nine-wrapper img{
+    height: 400px;
+    width:  600px;
+  
+}
+.nine-wrapper .nine-first-text{
+    width: 500px;
+    height: 400px;
+    background-color: #F2F2F2;
+    margin-left: 40px;
+}
+.nine-wrapper .nine-first-text h3{
+    font-size: 22px;
+    padding: 30px 20px;
+    margin-left: 20px;
+    color: #111111;
+
+}
+.nine-wrapper .nine-first-text .line{
+    background-color: #84C0A0;
+    height: 5px;
+    width: 100px;
+    padding: 4px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
+.nine-section .nine-text{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+.nines-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.nines-wrapper img{
+height: 360px;
+width: 710px;
+}
+.nines-wrapper p{
+    width:400px;
+    border: 3px solid #84C0A0;
+    margin-right: 30px;
+    padding: 0 40px ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+/* tenth section start form here  */
+.tenth-section {
+margin: 10px 0 0 0 ;
+}
+.tenth-section .tenth-bg{
+    background-image: url(img/pexels-photo-4406619.jpeg);
+    background-repeat: no-repeat;
+    height:700px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tenth-bg h3{
+    font-size: 18px;
+    padding-top: 20vh;
+    letter-spacing: 5px;
+    padding: 20px 0;
+
+}
+.tenth-wrapper{
+    width: 500px;
+}
+.tenth-bg p{
+    padding: 20px 0 40px 0;
+    font-size: 19px;
+}
+
+.tenth-bg i{
+    font-size: 30px;
+    margin: 50px 20px;
+}
+.tenth-bg i:hover{
+    cursor: pointer;
+    color: rgb(114, 161, 231);
+}
+/* /* footer start from here */
+
+footer{
+    background-color:#333333 ;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.footer-wrapper{
+    width: 700px;
+}
+footer .f-text{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+footer .cpy{
+    margin-top: 20px;
+    font-size: 10px;
+}
